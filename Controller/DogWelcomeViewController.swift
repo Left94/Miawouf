@@ -8,9 +8,9 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class DogWelcomeViewController: UIViewController {
     
-    @IBAction func unwindToWelcome(segue: UIStoryboardSegue) {
+    @IBAction func unwindToDogWelcome(segue: UIStoryboardSegue) {
     }
     
     

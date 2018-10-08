@@ -1,5 +1,5 @@
 //
-//  FormViewController.swift
+//  SuccessViewController.swift
 //  Miawouf
 //
 //  Created by vincent  on 05/10/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FormViewController: UIViewController {
+class DogSuccessViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +16,12 @@ class FormViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func dismiss(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+   
+    
     /*
     // MARK: - Navigation
 
